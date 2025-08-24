@@ -44,5 +44,4 @@ def page_deep_analysis():
                 st.subheader("Analysis Report")
                 st.markdown(analysis_result)
 
-# Run the page
-page_deep_analysis()
+# The main app.py handles the calling of this function

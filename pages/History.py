@@ -32,5 +32,4 @@ def page_history():
         csv = filtered_df.to_csv(index=False).encode('utf-8')
         st.sidebar.download_button("Export to CSV", csv, "activity_history.csv", "text/csv")
 
-# Run the page
-page_history()
+# The main app.py handles the calling of this function

@@ -17,5 +17,4 @@ def page_add_exam():
             else:
                 st.error("Subject is a required field.")
 
-# Run the page
-page_add_exam()
+# The main app.py handles the calling of this function

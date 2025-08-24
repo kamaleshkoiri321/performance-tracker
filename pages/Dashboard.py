@@ -57,5 +57,4 @@ def page_dashboard():
         else:
             st.info("No upcoming exams scheduled. You can add them from the 'Add Exam' page.")
 
-# Run the page
-page_dashboard()
+# The main app.py handles the calling of this function

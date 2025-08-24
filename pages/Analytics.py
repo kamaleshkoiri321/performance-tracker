@@ -24,5 +24,4 @@ def page_analytics():
     fig_line = px.line(weekly_summary, x='date', y='time_spent', title="Weekly Time Spent", markers=True)
     st.plotly_chart(fig_line, use_container_width=True)
 
-# Run the page
-page_analytics()
+# The main app.py handles the calling of this function

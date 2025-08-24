@@ -2,15 +2,15 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 from utils.database import setup_database
 
-# Import page functions
-from pages.a_Dashboard import page_dashboard
-from pages.b_Add_Activity import page_add_activity
-from pages.c_Add_Goal import page_add_goal
-from pages.d_Add_Exam import page_add_exam
-from pages.e_Daily_Routine import page_daily_routine
-from pages.f_History import page_history
-from pages.g_Analytics import page_analytics
-from pages.h_Deep_Analysis import page_deep_analysis
+# Import page functions with their new names
+from pages.Dashboard import page_dashboard
+from pages.Add_Activity import page_add_activity
+from pages.Add_Goal import page_add_goal
+from pages.Add_Exam import page_add_exam
+from pages.Daily_Routine import page_daily_routine
+from pages.History import page_history
+from pages.Analytics import page_analytics
+from pages.Deep_Analysis import page_deep_analysis
 
 # --- MAIN APP CONFIG ---
 def main():

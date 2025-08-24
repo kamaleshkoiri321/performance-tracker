@@ -44,5 +44,4 @@ def page_daily_routine():
                     delete_routine_item_from_db(row['id'])
                     st.rerun()
 
-# Run the page
-page_daily_routine()
+# The main app.py handles the calling of this function

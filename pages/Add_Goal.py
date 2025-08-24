@@ -16,5 +16,4 @@ def page_add_goal():
             else:
                 st.error("Title is a required field.")
 
-# Run the page
-page_add_goal()
+# The main app.py handles the calling of this function

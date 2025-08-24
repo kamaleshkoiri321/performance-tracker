@@ -18,5 +18,4 @@ def page_add_activity():
             else:
                 st.error("Title is a required field.")
 
-# Run the page
-page_add_activity()
+# The main app.py handles the calling of this function
