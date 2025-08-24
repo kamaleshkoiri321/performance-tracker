@@ -3,7 +3,6 @@ from datetime import datetime
 from utils.database import add_goal_to_db
 
 def page_add_goal():
-    st.set_page_config(page_icon="🎯")
     st.header("🎯 Set a New Goal")
     with st.form("goal_form", clear_on_submit=True):
         title = st.text_input("Goal Title", help="What do you want to achieve?")

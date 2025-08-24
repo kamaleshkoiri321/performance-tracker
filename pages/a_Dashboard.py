@@ -6,7 +6,6 @@ from utils.ai_assistant import get_ai_suggestions
 
 def page_dashboard():
     """The main dashboard page with summary and UI enhancements."""
-    st.set_page_config(page_icon="🏠")
     st.header("🏠 Dashboard")
 
     # Get API Key

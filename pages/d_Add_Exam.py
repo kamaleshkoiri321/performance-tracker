@@ -3,7 +3,6 @@ from datetime import datetime
 from utils.database import add_exam_to_db
 
 def page_add_exam():
-    st.set_page_config(page_icon="📅")
     st.header("📅 Schedule a New Exam")
     with st.form("exam_form", clear_on_submit=True):
         subject = st.text_input("Subject/Course Name")

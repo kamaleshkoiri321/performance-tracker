@@ -4,7 +4,6 @@ from datetime import time
 from utils.database import fetch_all_data, add_routine_item_to_db, delete_routine_item_from_db
 
 def page_daily_routine():
-    st.set_page_config(page_icon="⏰")
     st.header("⏰ Build Your Daily Routine")
     st.write("Plan your day for maximum productivity. Add tasks and schedule them.")
 

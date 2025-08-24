@@ -4,7 +4,6 @@ from utils.database import fetch_all_data
 from utils.ai_assistant import get_deep_analysis
 
 def page_deep_analysis():
-    st.set_page_config(page_icon="🔍")
     st.header("🔍 Deep Analysis Assistant")
     st.write("Ask anything about your performance, and the AI will give you a detailed analysis.")
 

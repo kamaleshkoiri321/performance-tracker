@@ -2,7 +2,6 @@ import streamlit as st
 from utils.database import fetch_all_data
 
 def page_history():
-    st.set_page_config(page_icon="📚")
     st.header("📚 Activity History")
     activities_df = fetch_all_data("activities")
     if activities_df.empty:

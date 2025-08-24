@@ -3,7 +3,6 @@ from datetime import datetime
 from utils.database import add_activity_to_db
 
 def page_add_activity():
-    st.set_page_config(page_icon="✍️")
     st.header("✍️ Add a New Activity")
     with st.form("activity_form", clear_on_submit=True):
         title = st.text_input("Title", help="What did you do?")

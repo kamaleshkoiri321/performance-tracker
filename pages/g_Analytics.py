@@ -4,7 +4,6 @@ import plotly.express as px
 from utils.database import fetch_all_data
 
 def page_analytics():
-    st.set_page_config(page_icon="📊")
     st.header("📊 Performance Analytics")
     activities_df = fetch_all_data("activities")
     if activities_df.empty or activities_df['time_spent'].sum() == 0:
